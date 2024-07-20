@@ -39,3 +39,11 @@ if status is-interactive
     printf '\eP$f{"hook": "SourcedRcFileForWarp", "value": { "shell": "fish"}}\x9c'
 end
 
+# Update outdated commands after running brew command from FelixKratz
+function brew
+  command brew $argv
+
+  if contains "upgrade" $argv || contains "update" $argv || contains "outdated" $argv
+    sketchybar --trigger brew_update
+  end
+end
