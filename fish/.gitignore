@@ -1,0 +1,10 @@
+#--------------------------------------------------#
+# The following was generated with gitignore.nvim: #
+#--------------------------------------------------#
+# Gitignore for the following technologies: Fish
+
+fishd.*
+fish_history
+fish_variables
+config.local.fish
+

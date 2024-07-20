@@ -1,0 +1,14 @@
+.DS_Store
+Microsoft\\VisualStudio Services/
+configstore/
+flutter/
+gatsby/
+gh/
+github-copilot/
+NuGet/
+raycast/
+xbuild/
+# Text editor
+zed/
+# Own repo in https://github.com/lecav30/nvim/tree/macos
+nvim/
