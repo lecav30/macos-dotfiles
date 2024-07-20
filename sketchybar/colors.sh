@@ -1,25 +1,25 @@
 #!/bin/bash
 
-# Color Palette
-export BLACK=0xff181926
-export WHITE=0xffcad3f5
-export RED=0xffed8796
-export GREEN=0xffa6da95
-export BLUE=0xff8aadf4
-export YELLOW=0xffeed49f
-export ORANGE=0xfff5a97f
-export MAGENTA=0xffc6a0f6
-export GREY=0xff939ab7
+# Color Palette - Catppuccin
+export BLACK=0xff11111b
+export WHITE=0xffcdd6f4
+export RED=0xfff38ba8
+export GREEN=0xffa6e3a1
+export BLUE=0xff89b4fa
+export YELLOW=0xfff9e2af
+export ORANGE=0xfffab387
+export MAGENTA=0xffcba6f7
+export GREY=0xff6c7086
 export TRANSPARENT=0x00000000
 
 # General bar colors
-export BAR_COLOR=0xa024273a
+export BAR_COLOR=$TRANSPARENT
 export ICON_COLOR=$WHITE # Color of all icons
 export LABEL_COLOR=$WHITE # Color of all labels
-export BACKGROUND_1=0x903c3e4f
-export BACKGROUND_2=0x90494d64
+export BACKGROUND_1=$TRANSPARENT
+export BACKGROUND_2=0x901e1e2e
 
-export POPUP_BACKGROUND_COLOR=0xff24273a
+export POPUP_BACKGROUND_COLOR=0xff1e1e2e
 export POPUP_BORDER_COLOR=$WHITE
 
 export SHADOW_COLOR=$BLACK

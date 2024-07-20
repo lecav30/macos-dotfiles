@@ -7,7 +7,7 @@ spotify_anchor=(
   script="$PLUGIN_DIR/spotify.sh"
   click_script="$POPUP_SCRIPT"
   popup.horizontal=on
-  popup.align=center
+  popup.align=right
   popup.height=150
   icon=􁁒
   icon.font="$FONT:Regular:25.0"
@@ -146,7 +146,7 @@ spotify_controls=(
 )
 
 sketchybar --add event spotify_change $SPOTIFY_EVENT             \
-           --add item spotify.anchor center                      \
+           --add item spotify.anchor right                       \
            --set spotify.anchor "${spotify_anchor[@]}"           \
            --subscribe spotify.anchor mouse.entered mouse.exited \
                                       mouse.exited.global        \
