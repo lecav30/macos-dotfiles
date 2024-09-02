@@ -8,6 +8,7 @@ github-copilot/
 NuGet/
 raycast/
 xbuild/
+QtProject/
 # Text editor
 zed/
 # Own repo in https://github.com/lecav30/nvim/tree/macos

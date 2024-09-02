@@ -6,6 +6,9 @@ end
 # Initialize Starship prompt
 /opt/homebrew/bin/starship init fish | source
 
+# Initialize Zoxide
+zoxide init fish | source
+
 # Add paths to PATH variable
 fish_add_path -g /usr/local/bin
 fish_add_path -g /usr/local/sbin
@@ -14,8 +17,13 @@ fish_add_path -g /usr/local/mysql/bin
 fish_add_path -g /opt/homebrew/bin
 # set -Ux DYLD_LIBRARY_PATH (brew --prefix)/lib $DYLD_LIBRARY_PATH
 
-set -x JAVA_HOME "/Library/Java/JavaVirtualMachines/azul-17.0.12/Contents/Home"
-set -x JAVA_HOME (/usr/libexec/java_home -v17.0.12)
+# Java
+# set -x JAVA_HOME "/Library/Java/JavaVirtualMachines/azul-17.0.12/Contents/Home"
+# set -x JAVA_HOME (/usr/libexec/java_home -v17.0.12)
+# Using jenv
+set -x PATH $HOME/.jenv/bin $PATH
+eval (jenv init -)
+# Java end
 
 # Add Ruby bin paths if they exist
 if test -d /opt/homebrew/opt/ruby/bin
@@ -36,9 +44,13 @@ end
 # pnpm end
 
 # Android
-set -x ANDROID_HOME "$HOME/Library/Android/sdk"
-set -x PATH "$PATH $ANDROID_HOME/emulator"
-set -x PATH "$PATH $ANDROID_HOME/platform-tools"
+# set -x ANDROID_HOME "$HOME/Library/Android/sdk"
+# set -x PATH "$PATH $ANDROID_HOME/emulator"
+# set -x PATH "$PATH $ANDROID_HOME/platform-tools"
+# React Native 0.70
+set -x ANDROID_SDK_ROOT $HOME/Library/Android/Sdk
+fish_add_path $ANDROID_SDK_ROOT/emulator
+fish_add_path $ANDROID_SDK_ROOT/platform-tools
 # Android end
 
 # Initialize Homebrew shell environment

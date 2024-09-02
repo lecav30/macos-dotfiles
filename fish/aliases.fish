@@ -27,6 +27,11 @@ alias ll 'eza -al --group-directories-first'
 alias ls 'eza -alF --color=always --sort=size | grep -v /'
 alias lt 'eza -al --sort=modified'
 
+# FZF
+function ff
+    fzf --preview "bat --style=numbers --color=always --line-range :500 {}"
+end
+
 # Yazi functions
 function yy
 	set tmp (mktemp -t "yazi-cwd.XXXXXX")
