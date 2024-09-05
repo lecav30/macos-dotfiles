@@ -7,12 +7,13 @@ end
 /opt/homebrew/bin/starship init fish | source
 
 # Initialize Zoxide
-zoxide init fish | source
+/opt/homebrew/bin/zoxide init fish | source
 
 # Add paths to PATH variable
 fish_add_path -g /usr/local/bin
 fish_add_path -g /usr/local/sbin
 fish_add_path -g $HOME/development/flutter/bin
+# fish_add_path -g VCPKG_ROOT $HOME/development/vcpkg
 fish_add_path -g /usr/local/mysql/bin
 fish_add_path -g /opt/homebrew/bin
 # set -Ux DYLD_LIBRARY_PATH (brew --prefix)/lib $DYLD_LIBRARY_PATH
