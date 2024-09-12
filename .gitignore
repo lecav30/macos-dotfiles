@@ -10,6 +10,7 @@ raycast/
 xbuild/
 QtProject/
 vscode-react-native/
+iterm2/
 # Text editor
 zed/
 # Own repo in https://github.com/lecav30/nvim/tree/macos

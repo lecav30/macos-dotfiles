@@ -3,6 +3,15 @@ if test -f ~/.config/fish/aliases.fish
     . ~/.config/fish/aliases.fish
 end
 
+# Initialize Homebrew shell environment
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Warp shell integration (if needed)
+# if status is-interactive
+#     printf '\eP$f{"hook": "SourcedRcFileForWarp", "value": { "shell": "fish"}}\x9c'
+# end
+# It generate errors with tmux
+
 # Initialize Starship prompt
 /opt/homebrew/bin/starship init fish | source
 
@@ -53,11 +62,3 @@ set -x ANDROID_SDK_ROOT $HOME/Library/Android/Sdk
 fish_add_path $ANDROID_SDK_ROOT/emulator
 fish_add_path $ANDROID_SDK_ROOT/platform-tools
 # Android end
-
-# Initialize Homebrew shell environment
-eval "$(/opt/homebrew/bin/brew shellenv)"
-
-# Warp shell integration (if needed)
-if status is-interactive
-    printf '\eP$f{"hook": "SourcedRcFileForWarp", "value": { "shell": "fish"}}\x9c'
-end
