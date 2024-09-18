@@ -26,6 +26,7 @@ fish_add_path -g $HOME/development/flutter/bin
 fish_add_path -g /usr/local/mysql/bin
 fish_add_path -g /opt/homebrew/bin
 # set -Ux DYLD_LIBRARY_PATH (brew --prefix)/lib $DYLD_LIBRARY_PATH
+set -x EDITOR nvim
 
 # Java
 # set -x JAVA_HOME "/Library/Java/JavaVirtualMachines/azul-17.0.12/Contents/Home"
