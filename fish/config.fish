@@ -6,12 +6,6 @@ end
 # Initialize Homebrew shell environment
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# Warp shell integration (if needed)
-# if status is-interactive
-#     printf '\eP$f{"hook": "SourcedRcFileForWarp", "value": { "shell": "fish"}}\x9c'
-# end
-# It generate errors with tmux
-
 # Initialize Starship prompt
 /opt/homebrew/bin/starship init fish | source
 
@@ -26,7 +20,22 @@ fish_add_path -g $HOME/development/flutter/bin
 fish_add_path -g /usr/local/mysql/bin
 fish_add_path -g /opt/homebrew/bin
 # set -Ux DYLD_LIBRARY_PATH (brew --prefix)/lib $DYLD_LIBRARY_PATH
+fish_add_path /opt/homebrew/opt/llvm/bin
 set -x EDITOR nvim
+set -Ux LANG en_US.UTF-8
+
+
+# Clang
+set -gx LDFLAGS "-L/opt/homebrew/opt/llvm/lib"
+set -gx CPPFLAGS "-I/opt/homebrew/opt/llvm/include"
+# Clang end
+
+# Vcpkg
+# set -gx VCPKG_ROOT $HOME/development/vcpkg
+# if not string match -q -- $VCPKG_ROOT $PATH
+#     set -gx PATH "$VCPKG_ROOT" $PATH
+# end
+# Vcpkg end
 
 # Java
 # set -x JAVA_HOME "/Library/Java/JavaVirtualMachines/azul-17.0.12/Contents/Home"
@@ -63,3 +72,5 @@ set -x ANDROID_SDK_ROOT $HOME/Library/Android/Sdk
 fish_add_path $ANDROID_SDK_ROOT/emulator
 fish_add_path $ANDROID_SDK_ROOT/platform-tools
 # Android end
+
+# fish_add_path /Users/lecav/.spicetify

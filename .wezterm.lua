@@ -23,12 +23,12 @@ config.color_scheme = 'Catppuccin Mocha'
 
 -- config.font = wezterm.font("PT Mono")
 config.font = wezterm.font("MonoLisa Nerd Font Mono")
-config.font_size = 18
+config.font_size = 16
 
 config.enable_tab_bar = false
 
-config.window_decorations = "RESIZE"
-config.window_background_opacity = 0.75
+-- config.window_decorations = "RESIZE"
+config.window_background_opacity = 0.85
 config.macos_window_background_blur = 10
 
 -- and finally, return the configuration to wezterm
