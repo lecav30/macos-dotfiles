@@ -7,13 +7,12 @@ Welcome to my macOS configuration files
 ## Default:
 
 - Editor -> [Neovim](https://neovim.io/)
-- Terminal -> [WezTerm](https://wezfurlong.org/wezterm/index.html)
-- Shell -> [Fish](https://fishshell.com/)
+- Terminal -> [Ghostty](https://ghostty.org/)
+- Shell -> Zsh
 
 ## Homebrew packages
 
-- [Browsh](https://www.brow.sh/docs/installation/)
-- [Ytop](https://github.com/cjbassi/ytop?tab=readme-ov-file#homebrew)
+- [Bottom](https://github.com/ClementTsang/bottom?tab=readme-ov-file#homebrew)
 - [Yazi](https://yazi-rs.github.io/docs/installation/#homebrew)
 - [Tmux](https://formulae.brew.sh/formula/tmux)
 
