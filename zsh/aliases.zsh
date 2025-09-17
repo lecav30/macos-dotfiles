@@ -7,6 +7,8 @@ alias eg="nvim ~/.gitconfig"
 alias g="git"
 alias cls="clear"
 alias home="cd ~"
+alias vimfiles="cd ~/.config/nvim"
+alias synct="syncthing --no-browser"
 
 # Neovim
 alias v="nvim"
