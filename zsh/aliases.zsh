@@ -50,6 +50,8 @@ function clean_git_branches() {
 # Alias más corto
 alias gcb="clean_git_branches"
 
+alias undo="git reset --soft HEAD~1"
+
 # FZF
 
 ff() {
@@ -72,4 +74,53 @@ yy() {
         fi
     fi
     rm -f -- "$tmp"
+}
+
+# cwebp functions
+
+png2webp() {
+    local f
+
+    for f in *.png; do
+        [[ -e "$f" ]] || {
+            echo "No se encontraron archivos PNG."
+            return 1
+        }
+
+        echo "Convirtiendo: $f"
+        cwebp \
+            -q 90 \
+            -m 6 \
+            -mt \
+            -sharp_yuv \
+            -af \
+            "$f" \
+            -o "${f%.png}.webp"
+    done
+}
+
+png2webp-clean() {
+    local f
+
+    for f in *.png; do
+        [[ -e "$f" ]] || {
+            echo "No se encontraron archivos PNG."
+            return 1
+        }
+
+        echo "Convirtiendo: $f"
+        if cwebp \
+            -q 90 \
+            -m 6 \
+            -mt \
+            -sharp_yuv \
+            -af \
+            "$f" \
+            -o "${f%.png}.webp"; then
+            rm "$f"
+            echo "✓ ${f%.png}.webp"
+        else
+            echo "✗ Error al convertir $f"
+        fi
+    done
 }

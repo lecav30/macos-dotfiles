@@ -12,6 +12,7 @@ QtProject/
 vscode-react-native/
 iterm2/
 filezilla/
+uv/
 # Text editor
 zed/
 # Own repo in https://github.com/lecav30/nvim/tree/macos
