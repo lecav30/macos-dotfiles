@@ -1,0 +1,59 @@
+// Zed settings
+{
+  "edit_predictions": {
+    "provider": "zed"
+  },
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "vim_mode": true,
+  "base_keymap": "VSCode",
+  "ui_font_size": 16,
+  "buffer_font_size": 16.0,
+  "ui_font_family": "CaskaydiaCove Nerd Font",
+  "cursor_blink": true,
+  "vim": {
+    "use_system_clipboard": "always",
+    "toggle_relative_line_numbers": true
+  },
+  "show_wrap_guides": true,
+  "wrap_guides": [90],
+  "languages": {
+    "CSS": {
+      "tab_size": 2
+    },
+    "TypeScript": {
+      // "prettier": { "allowed": true }
+      // "formatter": {
+      //   "external": {
+      //     "command": "prettier",
+      //     "args": [
+      //       "--stdin-filepath",
+      //       "$file",
+      //       "--single-quote",
+      //       "--tab-width",
+      //       "2",
+      //       "--trailing-comma",
+      //       "all"
+      //     ],
+      //     "stdin": true,
+      //     "stdout": true
+      //   }
+      // }
+    }
+  }
+}

@@ -67,3 +67,6 @@ export NVM_DIR="$HOME/.nvm"
 
 export PATH="/opt/homebrew/opt/gradle@8/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+
+# uv
+export PATH="$HOME/.local/bin:$PATH"

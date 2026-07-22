@@ -13,7 +13,10 @@ vscode-react-native/
 iterm2/
 filezilla/
 uv/
+spotatui/
 # Text editor
-zed/
+zed/*
+!zed/settings.json
+!zed/keymap.json
 # Own repo in https://github.com/lecav30/nvim/tree/macos
 nvim/
