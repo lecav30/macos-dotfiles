@@ -6,6 +6,11 @@ fi
 # Initialize inshellisense
 # is init zsh
 
+# Initialize Atuin
+. "$HOME/.atuin/bin/env"
+
+eval "$(atuin init zsh)"
+
 # Initialize Homebrew shell environment
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
@@ -38,6 +43,11 @@ eval "$(jenv init -)"
 # to enable jenv-autoload.plugin.zsh and allow JAVA_HOME to be set
 # export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
 # export PATH=$JAVA_HOME/bin:$PATH
+
+# Zsh autosuggestions
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+# Zsh syntax highlighting
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Add Ruby bin paths if they exist
 if [ -d /opt/homebrew/opt/ruby/bin ]; then

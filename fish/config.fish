@@ -74,3 +74,7 @@ fish_add_path $ANDROID_SDK_ROOT/platform-tools
 # Android end
 
 # fish_add_path /Users/lecav/.spicetify
+
+if status is-interactive
+    atuin init fish | source
+end

@@ -1,0 +1,93 @@
+theme = "onedark"
+
+[editor]
+line-number = "relative"
+mouse = true
+bufferline = "multiple"
+
+cursorline = true
+cursorcolumn = false
+scrolloff = 8
+
+auto-completion = true
+auto-format = true
+auto-info = true
+completion-timeout = 100
+completion-trigger-len = 1
+preview-completion-insert = true
+
+color-modes = true
+popup-border = "all"
+
+true-color = true
+undercurl = true
+
+rulers = [100]
+text-width = 100
+
+trim-trailing-whitespace = true
+insert-final-newline = true
+
+gutters = [
+  "diff",
+  "diagnostics",
+  "line-numbers",
+  "spacer"
+]
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "underline"
+
+[editor.indent-guides]
+render = true
+character = "╎"
+skip-levels = 1
+
+[editor.lsp]
+display-progress-messages = true
+display-inlay-hints = true
+inlay-hints-length-limit = 30
+
+[editor.whitespace.render]
+space = "none"
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left = [
+  "mode",
+  "spinner",
+  "file-name",
+  "file-modification-indicator"
+]
+
+center = []
+
+right = [
+  "diagnostics",
+  "workspace-diagnostics",
+  "version-control",
+  "selections",
+  "position",
+  "position-percentage",
+  "file-type"
+]
+
+separator = "│"
+
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+diagnostics = ["warning", "error"]
+workspace-diagnostics = ["warning", "error"]
+
+[keys.normal]
+tab = ":buffer-next"
+S-tab = ":buffer-previous"
+space.q = ":quit!"
+space.w = ":write"
+space.b.q = ":bc"

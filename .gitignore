@@ -14,6 +14,9 @@ iterm2/
 filezilla/
 uv/
 spotatui/
+atuin/
+# vim keybinding browser
+glide/ 
 # Text editor
 zed/*
 !zed/settings.json
