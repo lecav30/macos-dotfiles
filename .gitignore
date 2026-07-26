@@ -1,25 +1,30 @@
 .DS_Store
-Microsoft\\VisualStudio Services/
-configstore/
-flutter/
-gatsby/
-gh/
-github-copilot/
-NuGet/
-raycast/
-xbuild/
-QtProject/
-vscode-react-native/
-iterm2/
-filezilla/
-uv/
-spotatui/
-atuin/
-# vim keybinding browser
-glide/ 
-# Text editor
-zed/*
-!zed/settings.json
-!zed/keymap.json
-# Own repo in https://github.com/lecav30/nvim/tree/macos
-nvim/
+
+# Application and package-manager state (not portable configuration)
+/Microsoft\\VisualStudio Services/
+/NuGet/
+/configstore/
+/flutter/
+/gatsby/
+/gh/
+/github-copilot/
+/raycast/
+/xbuild/
+/QtProject/
+/vscode-react-native/
+/iterm2/
+/filezilla/
+/uv/
+/spotatui/
+/atuin/
+
+# Browser extension state
+/glide/
+
+# Zed: keep only portable preferences
+/zed/*
+!/zed/settings.json
+!/zed/keymap.json
+
+# Neovim is maintained in its own repository
+/nvim/
