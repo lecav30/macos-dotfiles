@@ -89,5 +89,9 @@ workspace-diagnostics = ["warning", "error"]
 tab = ":buffer-next"
 S-tab = ":buffer-previous"
 space.q = ":quit!"
-space.w = ":write"
-space.b.q = ":bc"
+y = "yank_to_clipboard"
+p = "paste_clipboard_after"
+P = "paste_clipboard_before"
+
+[keys.select]
+y = "yank_to_clipboard"
