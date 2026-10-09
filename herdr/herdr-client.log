@@ -1,0 +1,59 @@
+2026-09-20T16:28:04.053419Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=20147
+2026-09-20T16:28:04.053475Z  INFO herdr::client: connecting to server path=/Users/lecav/.config/herdr/herdr-client.sock
+2026-09-20T16:28:04.257873Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.1
+2026-09-20T16:31:41.650131Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=20147
+2026-09-20T16:31:46.329712Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=22994
+2026-09-20T16:31:46.329743Z  INFO herdr::client: connecting to server path=/Users/lecav/.config/herdr/herdr-client.sock
+2026-09-20T16:31:46.388139Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.1
+2026-09-20T18:46:11.393957Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=38813
+2026-09-20T18:46:11.394112Z  INFO herdr::client: connecting to server path=/Users/lecav/.config/herdr/herdr-client.sock
+2026-09-20T18:46:11.643101Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.1
+2026-09-20T18:49:27.890588Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-09-20T18:49:27.891362Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-09-20T18:49:27.891446Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-09-20T18:49:46.647803Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-09-20T18:49:46.647985Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-09-20T18:49:46.648029Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-09-20T18:49:47.377004Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-09-20T18:49:47.377190Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-09-20T18:49:47.377245Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-09-20T18:54:45.437605Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-09-20T18:54:45.439075Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-09-20T18:54:45.439194Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-09-20T18:54:46.163982Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-09-20T18:54:46.164202Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-09-20T18:54:46.164274Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-09-20T19:10:00.186707Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=22994
+2026-09-20T19:10:17.814609Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=38813
+2026-09-20T19:10:23.605883Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=79597
+2026-09-20T19:10:23.605918Z  INFO herdr::client: connecting to server path=/Users/lecav/.config/herdr/herdr-client.sock
+2026-09-20T19:10:23.850980Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.1
+2026-09-20T19:10:30.781927Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=79597
+2026-09-20T19:15:30.904537Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=83002
+2026-09-20T19:15:30.904701Z  INFO herdr::client: connecting to server path=/Users/lecav/.config/herdr/herdr-client.sock
+2026-09-20T19:15:30.959911Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.1
+2026-09-20T20:09:22.986167Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=83002
+2026-09-20T21:41:30.391436Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=8556
+2026-09-20T21:41:30.394412Z  INFO herdr::client: connecting to server path=/Users/lecav/.config/herdr/herdr-client.sock
+2026-09-20T21:41:30.451908Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.1
+2026-09-21T00:08:48.413257Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=8556
+2026-09-22T15:35:14.947684Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=23508
+2026-09-22T15:35:14.948009Z  INFO herdr::client: connecting to server path=/Users/lecav/.config/herdr/herdr-client.sock
+2026-09-22T15:35:15.179219Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.1
+2026-09-22T15:35:18.660844Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=23508
+2026-09-26T02:09:22.998751Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=87705
+2026-09-26T02:09:22.999339Z  INFO herdr::client: connecting to server path=/Users/lecav/.config/herdr/herdr-client.sock
+2026-09-26T02:09:23.219865Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.1
+2026-09-26T02:09:56.761754Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=87705
+2026-09-26T02:10:57.856441Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=88709
+2026-09-26T02:10:57.856683Z  INFO herdr::client: connecting to server path=/Users/lecav/.config/herdr/herdr-client.sock
+2026-09-26T02:10:57.981914Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.1
+2026-09-26T04:27:39.787345Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=88709
+2026-09-26T16:03:40.365440Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=22306
+2026-09-26T16:03:40.368041Z  INFO herdr::client: connecting to server path=/Users/lecav/.config/herdr/herdr-client.sock
+2026-09-26T16:03:40.557006Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.1
+2026-09-26T23:27:56.222018Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=22306
+2026-10-08T17:10:55.157504Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=54035
+2026-10-08T17:10:55.157786Z  INFO herdr::client: connecting to server path=/Users/lecav/.config/herdr/herdr-client.sock
+2026-10-08T17:10:55.399512Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.1
+2026-10-08T21:51:07.293971Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=54035

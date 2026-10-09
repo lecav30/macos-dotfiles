@@ -1,5 +1,7 @@
 // Zed settings
 {
+  "diff_view_style": "unified",
+  "theme": "Oxocarbon Light (Variation III)",
   "edit_predictions": {
     "provider": "zed"
   },

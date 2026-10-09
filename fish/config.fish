@@ -42,3 +42,8 @@ fish_add_path -g $ANDROID_SDK_ROOT/emulator $ANDROID_SDK_ROOT/platform-tools
 
 # NVM's shell functions are Bash/Zsh-specific. Use Zsh to switch Node versions;
 # Fish can still run the Node binary already available on PATH.
+
+# Added by LM Studio CLI (lms)
+set -gx PATH $PATH /Users/lecav/.lmstudio/bin
+# End of LM Studio CLI section
+

@@ -80,3 +80,8 @@ export PATH="$HOME/.local/bin:$PATH"
 
 # uv
 export PATH="$HOME/.local/bin:$PATH"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/lecav/.lmstudio/bin"
+# End of LM Studio CLI section
+
